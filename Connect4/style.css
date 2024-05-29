@@ -1,0 +1,32 @@
+#bods{
+   text-align:center;
+}
+
+#board{
+    height: 540px;
+    width: 630px;
+
+    background-color:#A97160;
+    border: 10px solid #8D5B4C;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    height:70px;
+    width: 70px;
+    margin: 5px;
+
+    background-color:white;
+    border-radius: 50%;
+    border: 5px solid #8D5B4C;
+}
+.red-piece{
+    background-color: red;
+}
+.yellow-piece{
+    background-color:yellow;
+}
+#turnDisplay{
+    font-size: x-large;
+}
