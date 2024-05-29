@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Aaden's Tic-Tac-Toe</title>
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <button id="game-mode" onclick="toggleGameMode()">Game Mode: 2 Player</button>
+    <button id="autoplay" onclick="setInterval(autoplay,10);document.getElementById('autoplay').remove()">Autoplay</button>
+    <br><br>
+    <button class="space-empty" id="top-left" onclick="play('top-left')">-</button>
+    <button class="space-empty" id="top" onclick="play('top')">-</button>
+    <button class="space-empty" id="top-right" onclick="play('top-right')">-</button>
+    <br>
+    <button class="space-empty" id="left" onclick="play('left')">-</button>
+    <button class="space-empty" id="center" onclick="play('center')">-</button>
+    <button class="space-empty" id="right" onclick="play('right')">-</button>
+    <br>
+    <button class="space-empty" id="bottom-left" onclick="play('bottom-left')">-</button>
+    <button class="space-empty" id="bottom" onclick="play('bottom')">-</button>
+    <button class="space-empty" id="bottom-right" onclick="play('bottom-right')">-</button>
+    <br>
+    <section id="log">
+        <p>Game start</p>
+        <p class="p1">X's turn</p>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
