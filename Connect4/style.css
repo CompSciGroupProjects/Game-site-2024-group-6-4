@@ -1,13 +1,14 @@
 #bods{
    text-align:center;
+    background-color:#F4F8F1;
 }
 
 #board{
     height: 540px;
     width: 630px;
 
-    background-color:#A97160;
-    border: 10px solid #8D5B4C;
+    background-color: #b4c5a0ff;
+    border: 10px solid #a5b394ff;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -19,7 +20,7 @@
 
     background-color:white;
     border-radius: 50%;
-    border: 5px solid #8D5B4C;
+    border: 5px solid #a5b394ff;
 }
 .red-piece{
     background-color: red;
