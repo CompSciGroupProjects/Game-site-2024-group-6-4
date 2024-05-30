@@ -1,0 +1,45 @@
+body{
+    background-color: #b9c4ab;
+}
+
+#playerChoice {
+    text-align: center;
+    color: #4a4a48;
+}
+#computerChoice{
+    text-align: center;
+    color: #4a4a48;
+}
+#result{
+    text-align: center;
+    color: #4a4a48;
+}
+#rock {
+    text-align: center;
+    background-color: #c2d6c2;
+    border-color: #a5b394;
+    color: #4a4a48;
+}
+#rock.hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#paper{
+    text-align: center;
+    background-color: #c2d6c2;
+    border-color: #a5b394;
+    color: #4a4a48;
+}
+#scissors{
+    text-align: center;
+    background-color: #c2d6c2;
+    border-color: #a5b394;
+    color: #4a4a48;
+}
+#game{
+    text-align: center;
+    color: #4a4a48;
+}
+#text{
+    text-align: center;
+    color: #4a4a48;
+}
