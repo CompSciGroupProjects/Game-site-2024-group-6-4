@@ -2,7 +2,9 @@
    text-align:center;
     background-color:#F4F8F1;
 }
-
+#connector{
+    margin-top:10%;
+}
 #board{
     height: 540px;
     width: 630px;

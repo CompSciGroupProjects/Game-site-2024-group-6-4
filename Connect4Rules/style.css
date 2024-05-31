@@ -8,6 +8,13 @@ body{
 #texts {
     text-align: center;
     color: #4a4a48;
+    margin-top:10%;
+}
+#button {
+    text-align: center;
+    border-color: #a5b394;
+    color: #4a4a48;
+    border-radius: 8px;
 }
 .pages{
     background-color: #A3C19F;
