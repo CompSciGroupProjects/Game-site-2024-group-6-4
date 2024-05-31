@@ -138,7 +138,7 @@ function checkWinner(){
 function setWinner(r, c){
     let winner = document.getElementById("winner");
     if(board[r][c] === playerRed){
-        winner.innerText = "Red Wins";
+        winner.innerText = "Green Wins";
     }
     else if(board[r][c] === playerYellow){
         winner.innerText = "Yellow Wins";
@@ -165,7 +165,7 @@ function setWinner(r, c){
 function displayTurn() {
     let turnDisplay = document.getElementById("turnDisplay");
     if (currPlayer == playerRed) {
-        turnDisplay.innerText = "Red's Turn";
+        turnDisplay.innerText = "Green's Turn";
     } else {
         turnDisplay.innerText = "Yellow's Turn";
     }
