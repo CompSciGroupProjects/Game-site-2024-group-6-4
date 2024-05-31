@@ -1,0 +1,44 @@
+.space-empty, .space-p1, .space-p2 {
+    font-size: 96px;
+    width: 100px;
+    height: 100px;
+}
+button {
+    background-color: #c2d6c2;
+    border: 5px solid #a5b394;
+}
+.p1-highlight, .p2-highlight {
+    background-color: #b9c4ab;
+}
+body {
+    text-align: center;
+    background-color: #c2d6c2;
+}
+
+.pages{
+    background-color: #A3C19F;
+    list-style-type: none;
+    margin:0;
+    position:fixed;
+    top:0;
+    width: 100%;
+    left:0;
+}
+.nclass {
+    background-color:#A3C19F;
+    float: left;
+    display: block;
+    color:Black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.nclass a {
+    padding: 16px 16px 16px 16px;
+    text-decoration: none;
+}
+.pages li a:hover{
+    background-color:#C1D7AE;
+}
