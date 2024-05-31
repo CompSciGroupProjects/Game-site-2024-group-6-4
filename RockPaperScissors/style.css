@@ -41,3 +41,30 @@ body{
     text-align: center;
     color: #4a4a48;
 }
+.pages{
+    background-color: #A3C19F;
+    list-style-type: none;
+    margin:0;
+    position:fixed;
+    top:0;
+    width: 100%;
+    left:0;
+}
+.nclass {
+    background-color:#A3C19F;
+    float: left;
+    display: block;
+    color:Black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.nclass a {
+    padding: 16px 16px 16px 16px;
+    text-decoration: none;
+}
+.pages li a:hover{
+    background-color:#C1D7AE;
+}
