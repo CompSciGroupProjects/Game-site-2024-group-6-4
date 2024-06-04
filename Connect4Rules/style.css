@@ -10,11 +10,12 @@ body{
     color: #4a4a48;
     margin-top: 95px;
 }
-#button {
+button {
+    background-color: #c2d6c2;
+    border: 5px solid #a5b394;
+}
+#button{
     text-align: center;
-    border-color: #a5b394;
-    color: #4a4a48;
-    border-radius: 8px;
 }
 .pages{
     background-color: #A3C19F;
