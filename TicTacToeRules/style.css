@@ -1,3 +1,6 @@
+#text{
+    color: #4a4a48;
+}
 .space-empty, .space-p1, .space-p2 {
     font-size: 96px;
     width: 100px;
@@ -12,7 +15,7 @@ button {
 }
 body {
     text-align: center;
-    background-color: #c2d6c2;
+    background-color: #b9c4ab;
 }
 
 .pages{
