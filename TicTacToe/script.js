@@ -125,6 +125,11 @@ function botPlay() {
             if (board[6] === -1) {play(spaces[[0,2,8][Math.floor(Math.random() * 3)]]);return;}
             if (board[8] === -1) {play(spaces[[0,2,6][Math.floor(Math.random() * 3)]]);return;}
         }
+        if (moves === 3 && (board[0] === -1 && board[8] === -1 || board[2] === -1 && board[6] === -1)) {
+            // on bot's 2nd turn, if player played two opposite corners, play a side space
+            play(spaces[[1,3,5,7][Math.floor(Math.random() * 4)]]);
+            return;
+        }
     }
     let possibleMoves = playable();
     play(spaces[possibleMoves[Math.floor(Math.random() * possibleMoves.length)]]);
