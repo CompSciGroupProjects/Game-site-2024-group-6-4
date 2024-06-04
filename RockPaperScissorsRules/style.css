@@ -1,5 +1,6 @@
 body{
     background-color: #b9c4ab;
+    text-align:center;
 }
 #rules {
     text-align: center;
@@ -41,4 +42,8 @@ body{
 }
 .pages li a:hover{
     background-color:#C1D7AE;
+}
+button {
+    background-color: #c2d6c2;
+    border: 5px solid #a5b394;
 }
